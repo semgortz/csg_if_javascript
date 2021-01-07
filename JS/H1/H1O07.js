@@ -4,7 +4,9 @@ function setup() {
   canvas.parent('processing');
   noLoop();
   colorMode(RGB, 255, 255, 255, 1);
-  fill(178, 34, 34,.5);
+  fill(178, 34, 34,0.5);
+  angleMode(DEGREES);
+  rectMode(CENTER);
 }
 
 function draw() {
